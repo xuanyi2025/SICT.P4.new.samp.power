@@ -1,0 +1,17 @@
+libvbar-drv-capturer.so.1.0.3
+libvbar-drv-clk.so.1.0.0
+libvbar-drv-gpio.so.1.0.1
+libvbar-drv-isp.so.1.0.0
+libvbar-drv-memory.so.1.1.1
+libvbar-drv-pwm.so.1.0.0
+libvbar-drv-soc.so.1.0.0
+libvbar-drv-watchdog.so.1.0.0
+libvbar-m-audio.so.1.0.4
+libvbar-m-capturer.so.1.0.1
+libvbar-m-channel.so.1.0.3
+libvbar-m-common.so.1.0.2
+libvbar-m-decoder.so.1.0.0
+libvbar-m-eid.so.1.0.2
+libvbar-m-key.so.1.0.0
+libvbar-m-net.so.1.1.3
+libvbar-p-nfc.so.1.0.2

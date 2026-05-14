@@ -1,0 +1,8 @@
+[2026/5/11 13:44:06] --- Start runUsb ---
+[2026/5/11 13:44:06] Platform: win32
+[2026/5/11 13:44:06] Kill command defined: wmic process where "name='node.exe' and commandline like '%device_manager.js%'" delete || powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance Win32_Process | Where-Object { $_.Name -eq 'node.exe' -and $_.CommandLine -like '*device_manager.js*' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }"
+[2026/5/11 13:44:06] Node.js check passed
+[2026/5/11 13:44:06] Kill stdout: û�п���ʵ����
+[2026/5/11 13:44:06] Manager script path: c:\Users\10175\.vscode\extensions\dxide.dxide-1.0.41\src\device\device_manager.js
+[2026/5/11 13:44:06] Spawning child process...
+[2026/5/11 13:44:07] Sending connect command: {"cmd":"connect","lang":"zh","model":"DW200_V20"}
